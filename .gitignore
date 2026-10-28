@@ -1,0 +1,85 @@
+# ==============================================================================
+# AquaSense .gitignore
+# ==============================================================================
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing & Coverage
+/coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Next.js Build Outputs
+/.next/
+/out/
+
+# Production & Packaging
+/build
+/dist
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Debug Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment Variables & Secrets
+.env
+.env*.local
+.env.production
+.env.development
+.env.test
+!.env.example
+*.pem
+*.key
+*.crt
+*.cert
+credentials*.json
+aws-credentials*.json
+
+# Vercel & Hosting
+.vercel
+
+# TypeScript & Bundler Cache
+*.tsbuildinfo
+next-env.d.ts
+.turbo/
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+
+# Firmware & Embedded Build Artifacts
+firmware/**/build/
+firmware/**/.vscode/
+.pio/
+.pioenvs/
+.piolibdeps/
+*.bin
+*.hex
+*.elf
+*.eep
+*.lss
+
+# IDE & Editor Settings
+.idea/
+*.swp
+*.swo
+*~

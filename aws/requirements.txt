@@ -1,0 +1,4 @@
+# AWS SNS Notification Module Dependencies
+# Note: boto3 is pre-installed in the AWS Lambda Python execution environment.
+# Install this file only when running AWS_SNS.py locally or in a custom container.
+boto3>=1.34.0
